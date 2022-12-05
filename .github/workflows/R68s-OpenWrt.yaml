@@ -164,6 +164,7 @@ jobs:
   Build:
     needs: [Toolchain]
     runs-on: ubuntu-22.04
+    timeout-minutes:600
 
     env:
       OPENWRT_PATH: ${{ needs.Toolchain.outputs.OPENWRT_PATH }}
