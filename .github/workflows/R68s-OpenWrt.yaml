@@ -6,7 +6,7 @@
 # https://github.com/P3TERX
 #===============================================
 
-name: Rockchip OpenWrt
+name: R68s OpenWrt
 
 on:
   workflow_dispatch:
